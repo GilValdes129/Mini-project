@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 5px solid red;
+    background-color: beige;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header ul {
+    text-align: end;
+    list-style: none;
+    margin-right: 2%;
+}
+
+.list-item {
+    display: inline;
+    margin: 0 1%;
+}
+
+main {
+    text-align: center;
+    margin-top: 25px;
+    background-color: blanchedalmond;
+}
+
+main img{
+    width: 200px;
+    height: auto;
+}
+
+.form {
+    font-weight: 800;
+}
+
+footer {
+
+    background-color: aquamarine;
+    
+}
