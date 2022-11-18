@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 header {
     border-bottom: 5px solid red;
     background-color: beige;
@@ -39,7 +43,14 @@ main img{
 }
 
 footer {
-
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: aquamarine;
-    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3 {
+    text-align: center;
 }
